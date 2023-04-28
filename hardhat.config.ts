@@ -4,6 +4,8 @@ import 'hardhat-deploy'
 import 'hardhat-deploy-ethers'
 import '@nomiclabs/hardhat-etherscan'
 
+import './tasks'
+
 const accounts = process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : ['']
 
 const config: HardhatUserConfig = {
